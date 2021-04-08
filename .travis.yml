@@ -1,10 +1,12 @@
-language: generic 
-sudo: required  
+sudo: required
+language: generic
+
 services:
   - docker
 
-script:
-  - docker run -e CI=true USERNAME/docker-react npm run test
-
 before_install:
   - docker build -t swarnim0308/docker-react -f Dockerfile.dev .
+
+script:
+  - docker run -e CI=true swarnim0308/docker-react npm run test -- --coverage
+  # - docker run -e CI=true swarnim0308/docker-react npm run test
