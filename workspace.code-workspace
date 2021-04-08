@@ -1,0 +1,47 @@
+{
+	"folders": [
+		{
+			"path": "..\\simpleweb"
+		},
+		{
+			"path": "..\\visits-starter"
+		},
+		{
+			"path": "..\\visits"
+		},
+		{
+			"path": "..\\visits-dockercompose"
+		},
+		{
+			"path": "..\\container-maintainence"
+		},
+		{
+			"path": "..\\container-automatic-restart"
+		},
+		{
+			"path": "..\\frontend"
+		},
+		{
+			"path": "..\\docker-shorthand"
+		},
+		{
+			"path": "..\\docker-overriding"
+		},
+		{
+			"path": "..\\docker-composeforTests"
+		},
+		{
+			"path": "."
+		},
+		{
+			"path": "..\\travis"
+		},
+		{
+			"path": "..\\travis-config"
+		},
+		{
+			"path": "..\\automated-deployment"
+		}
+	],
+	"settings": {}
+}
